@@ -55,4 +55,4 @@
     dest: /etc/hostname
 
 - name: Rebotando equipo
-  shell: /sbin/shutdown -r now
+  shell: /sbin/shutdown -r now && sleep 1
