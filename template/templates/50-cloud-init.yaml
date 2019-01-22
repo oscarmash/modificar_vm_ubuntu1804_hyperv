@@ -12,7 +12,7 @@ network:
             gateway4: 172.26.0.1
             nameservers:
                 addresses:
-                - 172.26.0.10
+                - {{ dns }}
                 search:
                 - ilba.cat
     version: 2

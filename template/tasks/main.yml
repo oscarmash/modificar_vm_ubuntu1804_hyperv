@@ -54,6 +54,7 @@
     src: templates/hostname
     dest: /etc/hostname
 
+<<<<<<< HEAD
 #- name: Rebotando equipo
 #  shell: /sbin/shutdown -r now
 
@@ -62,3 +63,7 @@
   async: 1
   poll: 0
   ignore_errors: true
+=======
+- name: Rebotando equipo
+  shell: /sbin/shutdown -r now && sleep 1
+>>>>>>> 1e24a5a7070a8f4df9b03574ed07ca9840b16303
